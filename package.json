@@ -1,0 +1,37 @@
+{
+  "name": "alfred-httpstatuses",
+  "version": "1.0.0",
+  "description": "Alfred workflow for [httpstatuses.com](https://httpstatuses.com)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "alfred-link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nswbmw/alfred-httpstatuses.git"
+  },
+  "keywords": [
+    "http",
+    "httpstatuses",
+    "status",
+    "code"
+  ],
+  "author": {
+    "name": "nswbmw",
+    "email": "nswbmw1992@gmail.com",
+    "url": "github.com/nswbmw"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nswbmw/alfred-httpstatuses/issues"
+  },
+  "homepage": "https://github.com/nswbmw/alfred-httpstatuses#readme",
+  "dependencies": {
+    "alfred-link": "^0.1.4",
+    "alfy": "^0.3.0"
+  },
+  "engines": {
+    "node": ">=4"
+  }
+}
